@@ -2,8 +2,35 @@
     Section 1
 ============= */
 #section-1{
-    .grid-content{
-        
-    }
+    text-align: center;
+    
+   
+    >div{
+        background-image: url('../img/main_slide_21.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 694px;
 
+        @include md{
+            height: 694px;
+        }
+
+        @include lg{
+            height: 799px;
+        }
+
+        @include xl{
+            grid-area: section-1;
+            height: 959px;
+        }
+        >h1{
+            padding-top: 200px;
+            color: $white;
+        }
+        #graphic{
+            >h2{
+                padding-bottom: 300px;
+            }
+        }
+    }
 }
