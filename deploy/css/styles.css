@@ -347,6 +347,9 @@ textarea {
 /* =============
     Footer
 ============= */
+#footer {
+  background-color: #000; }
+
 /* =============
     Section 1
 ============= */
@@ -369,6 +372,52 @@ textarea {
         height: 959px; } }
     #section-1 > div > h1 {
       padding-top: 200px;
-      color: #fff; }
+      color: #1A4B58; }
+    #section-1 > div > p {
+      color: #338595; }
     #section-1 > div #graphic > h2 {
-      padding-bottom: 300px; }
+      padding-bottom: 300px;
+      color: #fff; }
+
+/* =============
+    Section 2
+============= */
+#section-2 {
+  text-align: center; }
+  @media (min-width: 768px) {
+    #section-2 > div {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-template-areas: "article aside";
+      height: 246px; } }
+  @media (min-width: 992px) {
+    #section-2 > div {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "aside article";
+      height: 600px; } }
+  #section-2 > div > article {
+    background-color: #EEEEEE;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    #section-2 > div > article p {
+      text-align: justify;
+      padding: 15px; }
+  #section-2 > div > aside {
+    background-image: url("../img/4141.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 320px; }
+    @media (min-width: 768px) {
+      #section-2 > div > aside {
+        height: 246px; } }
+    @media (min-width: 992px) {
+      #section-2 > div > aside {
+        height: 600px; } }
+/* =============
+    Section 3
+============= */
+#section-3 > div {
+  background-color: #EEEEEE; }
+  #section-3 > div > h1 {
+    text-align: center; }

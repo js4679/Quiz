@@ -25,11 +25,15 @@
         }
         >h1{
             padding-top: 200px;
-            color: $white;
+            color: $darkblue;
+        }
+        >p{
+            color: $teal;
         }
         #graphic{
             >h2{
                 padding-bottom: 300px;
+                color: $white;
             }
         }
     }

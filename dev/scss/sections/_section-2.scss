@@ -1,0 +1,46 @@
+/* =============
+    Section 2
+============= */
+#section-2{
+    text-align: center;
+    
+    >div{
+        @include md{
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-areas: "article aside";
+            height: 246px;
+        }
+        @include lg{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-areas: "aside article";
+            height: 600px;
+        }
+        >article{
+            background-color: $lightgray;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            
+            p{
+                text-align: justify;
+                padding: 15px;
+
+            }
+        }
+        >aside{
+            background-image: url('../img/4141.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 320px;
+
+            @include md{
+            height: 246px;
+            }
+
+            @include lg{
+            height: 600px;
+            }
+        }
+    }
+}
