@@ -348,7 +348,13 @@ textarea {
     Footer
 ============= */
 #footer {
-  background-color: #000; }
+  text-align: center;
+  padding: 50px; }
+  #footer > div > ul {
+    display: flex;
+    text-decoration: none;
+    font-size: 3.125rem;
+    margin-left: 20px; }
 
 /* =============
     Section 1
@@ -388,13 +394,13 @@ textarea {
     #section-2 > div {
       display: grid;
       grid-template-columns: 60% 40%;
-      grid-template-areas: "article aside";
+      grid-template-areas: " section-2 ";
       height: 246px; } }
   @media (min-width: 992px) {
     #section-2 > div {
       display: grid;
       grid-template-columns: 50% 50%;
-      grid-template-areas: "aside article";
+      grid-template-areas: " section-2 ";
       height: 600px; } }
   #section-2 > div > article {
     background-color: #EEEEEE;
@@ -418,6 +424,18 @@ textarea {
     Section 3
 ============= */
 #section-3 > div {
-  background-color: #EEEEEE; }
+  padding: 15px; }
   #section-3 > div > h1 {
     text-align: center; }
+  #section-3 > div #card-1 {
+    background-color: #EEEEEE; }
+    #section-3 > div #card-1 > h2 {
+      text-align: center; }
+  #section-3 > div #card-2 {
+    background-color: #EEEEEE; }
+    #section-3 > div #card-2 > h2 {
+      text-align: center; }
+  #section-3 > div #card-3 {
+    background-color: #EEEEEE; }
+    #section-3 > div #card-3 > h2 {
+      text-align: center; }

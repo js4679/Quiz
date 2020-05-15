@@ -3,12 +3,33 @@
 ============= */
 #section-3{
     >div{
-        background-color: $lightgray;
-
+        
         >h1{
             text-align: center;
         }
+        
+        padding: 15px;
 
+        #card-1{
+            background-color: $lightgray;
+            >h2{
+                text-align: center;
+            }
+        }
+
+        #card-2{
+            background-color: $lightgray;
+            >h2{
+                text-align: center;
+            }
+        }
+
+        #card-3{
+            background-color: $lightgray;
+            >h2{
+                text-align: center;
+            }
+        }
        
 
         

@@ -1,0 +1,11 @@
+/* =============
+    Footer
+============= */
+#footer {
+  text-align: center;
+  padding: 50px; }
+  #footer > div > ul {
+    display: flex;
+    text-decoration: none;
+    font-size: rem-calc(50);
+    margin-left: 20px; }

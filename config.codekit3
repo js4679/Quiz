@@ -39,6 +39,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/footer.html",
+		"oF": 0
+		},
 	"/deploy/img/2342441.jpg": {
 		"ft": 16384,
 		"iS": 152155,
@@ -155,14 +163,6 @@
 		"oAP": "/design/content-quiz.sketch",
 		"oF": 0
 		},
-	"/dev/footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/footer.html",
-		"oF": 0
-		},
 	"/dev/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -275,9 +275,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_mixins.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -288,9 +288,9 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/_variables.css",
-		"oF": 3,
+		"oA": 1,
+		"oAP": "/dev/scss/helpers/_variables.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},

@@ -2,5 +2,15 @@
     Footer
 ============= */
 #footer{
-    background-color: $black;
+    text-align: center;
+    padding: 50px;
+    
+    >div{
+        >ul{
+            display: flex;
+            text-decoration: none;
+            font-size: rem-calc(50);
+            margin-left: 20px;
+        }
+    }
 }
