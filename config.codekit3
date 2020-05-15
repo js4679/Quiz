@@ -155,13 +155,21 @@
 		"oAP": "/design/content-quiz.sketch",
 		"oF": 0
 		},
+	"/dev/footer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
 	"/dev/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/deploy/footer.html",
-		"oF": 2
+		"oAP": "/dev/footer.html",
+		"oF": 0
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -293,7 +301,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/deploy/css/_footer.css",
 		"oF": 3,
 		"oS": 0,
