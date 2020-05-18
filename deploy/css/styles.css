@@ -394,8 +394,7 @@ textarea {
     #section-2 > div {
       display: grid;
       grid-template-columns: 60% 40%;
-      grid-template-areas: " section-2 ";
-      height: 246px; } }
+      grid-template-areas: " section-2 "; } }
   @media (min-width: 992px) {
     #section-2 > div {
       display: grid;
@@ -428,14 +427,17 @@ textarea {
   #section-3 > div > h1 {
     text-align: center; }
   #section-3 > div #card-1 {
-    background-color: #EEEEEE; }
+    background-color: #EEEEEE;
+    text-align: center; }
     #section-3 > div #card-1 > h2 {
       text-align: center; }
   #section-3 > div #card-2 {
-    background-color: #EEEEEE; }
+    background-color: #EEEEEE;
+    text-align: center; }
     #section-3 > div #card-2 > h2 {
       text-align: center; }
   #section-3 > div #card-3 {
-    background-color: #EEEEEE; }
+    background-color: #EEEEEE;
+    text-align: center; }
     #section-3 > div #card-3 > h2 {
       text-align: center; }
