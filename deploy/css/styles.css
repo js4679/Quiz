@@ -320,6 +320,26 @@ template {
 /* =============
     Typography
 ============= */
+body #section-1 {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400; }
+
+body #section-2 h1 {
+  font-family: 'Montserrat', sans-serif; }
+
+body #section-2 p {
+  font-family: 'Lato', sans-serif; }
+
+body #section-3 h1 {
+  font-family: 'Montserrat', sans-serif; }
+
+body #section-3 h2 {
+  font-family: 'Montserrat', sans-serif; }
+
+body #section-3 p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
 /* =============
     Buttons
 ============= */
@@ -348,6 +368,7 @@ textarea {
     Footer
 ============= */
 #footer {
+  background-color: #000000;
   text-align: center;
   padding: 50px; }
   #footer > div > ul {
