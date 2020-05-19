@@ -9,8 +9,10 @@
             display: grid;
             grid-template-columns: 60% 40%;
             grid-template-areas: " section-2 ";
-            
+            height: 246px;
+            padding-bottom: none;
         }
+
         @include lg{
             display: grid;
             grid-template-columns: 50% 50%;
@@ -19,7 +21,7 @@
         }
         >article{
             background-color: $lightgray;
-            padding-top: 50px;
+            padding-top: 30px;
             padding-bottom: 50px;
             
             p{

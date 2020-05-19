@@ -31,9 +31,15 @@
             color: $teal;
         }
         #graphic{
+            background-image: url('../img/oval.svg');
+            background-size: 40%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 78px;
+
             >h2{
-                padding-bottom: 300px;
                 color: $white;
+
             }
         }
     }

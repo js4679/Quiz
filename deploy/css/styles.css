@@ -402,9 +402,14 @@ textarea {
       color: #1A4B58; }
     #section-1 > div > p {
       color: #338595; }
-    #section-1 > div #graphic > h2 {
-      padding-bottom: 300px;
-      color: #fff; }
+    #section-1 > div #graphic {
+      background-image: url("../img/oval.svg");
+      background-size: 40%;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 78px; }
+      #section-1 > div #graphic > h2 {
+        color: #fff; }
 
 /* =============
     Section 2
@@ -415,7 +420,9 @@ textarea {
     #section-2 > div {
       display: grid;
       grid-template-columns: 60% 40%;
-      grid-template-areas: " section-2 "; } }
+      grid-template-areas: " section-2 ";
+      height: 246px;
+      padding-bottom: none; } }
   @media (min-width: 992px) {
     #section-2 > div {
       display: grid;
@@ -424,7 +431,7 @@ textarea {
       height: 600px; } }
   #section-2 > div > article {
     background-color: #EEEEEE;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px; }
     #section-2 > div > article p {
       text-align: justify;
@@ -445,8 +452,20 @@ textarea {
 ============= */
 #section-3 > div {
   padding: 15px; }
+  @media (min-width: 1200px) {
+    #section-3 > div {
+      display: grid;
+      grid-template-areas: "section-3";
+      grid-template-columns: auto 1200px auto; } }
   #section-3 > div > h1 {
     text-align: center; }
+  @media (min-width: 768px) {
+    #section-3 > div {
+      display: grid;
+      grid-template-columns: 10% 30% 30% 30%;
+      grid-template-areas: "div";
+      text-align: center;
+      padding: 30px; } }
   #section-3 > div #card-1 {
     background-color: #EEEEEE;
     text-align: center; }
